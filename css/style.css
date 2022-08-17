@@ -1,0 +1,64 @@
+body {
+  background-color: whitesmoke;
+}
+.header {
+  color: black;
+  padding: 1rem;
+  text-align: center;
+  font-size: larger;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 16px;
+  }
+  .namn {
+    font-size: 2rem;
+    text-decoration: overline;
+  }
+  .efternamn {
+    color: red;
+    text-decoration: underline;
+  }
+.topnav {
+  display: block;
+  margin: auto;
+  width: 50%;
+  font-weight: bolder;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  font-family: "Josefin Sans", sans-serif;
+  }
+.links {
+  text-decoration: none;
+  padding: 1px;
+  font-size: 2rem;
+  color: black;
+  padding: 1rem;
+}
+.topnav a:hover {
+  filter: grayscale(1);
+}
+.main {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  column-count: 2;
+  column-rule: 2px solid gray;
+  column-gap: 5rem;
+  text-align: justify;
+  margin: 52px;
+  padding: 16px;
+}
+  .footer {
+    display: block;
+    background: white;
+    padding: 16px;
+  }
+@media screen and (max-width: 1200px) {
+  .header,
+  .topnav,
+  .links,
+  .flexbox,
+  .item, footer, main {
+    display: block;
+  }
+}
